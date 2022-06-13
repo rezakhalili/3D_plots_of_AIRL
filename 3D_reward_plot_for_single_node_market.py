@@ -2,10 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Importing the figure data
-x_axis = np.load('x_axis_valus.npy')
-y_axis = np.load('y_axis_valus.npy')
-z_axis_true_reward  = np.load('z_axis_values_true_reward.npy')
-z_axis_learned_reward  = np.load('z_axis_values_learned_reward.npy')
+x_axis = np.load('./3D_plots_of_AIRL/x_axis_valus.npy')
+y_axis = np.load('./3D_plots_of_AIRL/y_axis_valus.npy')
+z_axis_true_reward  = np.load('./3D_plots_of_AIRL/z_axis_values_true_reward.npy')
+z_axis_learned_reward  = np.load('./3D_plots_of_AIRL/z_axis_values_learned_reward.npy')
 
 
 # Start Ploting
